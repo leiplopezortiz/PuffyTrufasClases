@@ -1,11 +1,3 @@
-h1{
-    color: rgb(107, 59, 241);
-}
-
-p{
-    color:rgba(41, 91, 199, 0.74);
-    font-size: 30px;
-}
 body{
     background-color: rgb(231, 228, 247);
     align-items: center;
@@ -14,23 +6,23 @@ body{
 }
 
 .sprinkle {
-    position:absolute;
-    border-radius: 100vh;
-    z-index: 100;
-    animation: bounce-in-sprinkles 0.5s forwards;
-    /* box-shadow: 1vh 1vh 0 rgba(65, 12, 12, 0.445);
-    background-color: rgb(180, 17, 44); */
-    z-index: -1;
+position:absolute;
+border-radius: 100vh;
+z-index: 100;
+animation: bounce-in-sprinkles 0.5s forwards;
+/* box-shadow: 1vh 1vh 0 rgba(65, 12, 12, 0.445);
+background-color: rgb(180, 17, 44); */
+z-index: -1;
 }
 
 .one {
-    transform: rotate(60deg);
-    background-color: sprinkle;
-    box-shadow: 1vh 1vh 0 rgba(204, 77, 77, 0.466);
-    background-color: rgb(241, 64, 41);
-    top: 35%;
-    left: 80%;
-    animation-delay: 1s;
+transform: rotate(60deg);
+background-color: sprinkle;
+box-shadow: 1vh 1vh 0 rgba(204, 77, 77, 0.466);
+background-color: rgb(241, 64, 41);
+top: 35%;
+left: 80%;
+animation-delay: 1s;
 }
 
 .two {
@@ -159,4 +151,34 @@ animation-delay: 1s;
     height: 6.66667vh;
     width: 2.5vh;
 }
+}
+
+#duende {
+    width: 250px;
+    top: 2px;
+    left: 830px;
+    position:relative;
+    display: flex;
+    justify-items: center;
+}
+form{
+    list-style-type: none;
+}
+ul{
+    list-style-type: none;
+}
+
+h1{
+    color: rgb(107, 59, 241);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+p{
+    color:rgba(41, 91, 199, 0.74);
+    font-size: 30px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
 }
