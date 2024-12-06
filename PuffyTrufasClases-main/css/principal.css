@@ -1,48 +1,28 @@
-header{
-    display: flex;
-    justify-content: space-around;
+body{
+  background-color: #FFFFFF;
+  align-items:center;
+  justify-content: center;
+  height: 50%;
 }
-a{
-  font-size: 30px;
-  text-decoration: none;
+header{
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  z-index: 20;
 }
 h1{
-    color: rgb(13, 132, 46);
-    display: flex;
-    justify-content: center;
-    font-size: 38px;
+  text-shadow: 0.1em 0.1em 0.2em #F5F5DC;
+  color: #4B3F29;
+  background-color: transparent;
+  font-size: 500%;
+  border: transparent;
+  font-weight: bold;
 }
 
-p{
-    color:rgb( 173, 34, 34);
-    display: flex;
-    justify-content: center;
-    font-size: 25px;
-}
-strong{
-  color:rgb( 173, 34, 34);
+.inicio {
+  font-size: 2%;
   display: flex;
-  justify-content: center;
-  font-size: 25px;
-}
-h2{
-    color: rgb( 173, 34, 34);
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
-}
-h4{
-  color: rgb( 173, 34, 34);
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
-}
-
-body{
-    background-color: rgb(231, 228, 247);
-    align-items:center;
-    justify-content: center;
-    height: 50%;
+  justify-content: space-around;
 }
 
 .sprinkle {
@@ -52,7 +32,7 @@ body{
   animation: bounce-in-sprinkles 0.5s forwards;
   /* box-shadow: 1vh 1vh 0 rgba(65, 12, 12, 0.445);
   background-color: rgb(180, 17, 44); */
-  z-index: -1;
+  z-index: -20;
 }
 
 .one {
@@ -193,57 +173,3 @@ body{
   }
 }
 
-#duende {
-  width: 250px;
-  top: 2px;
-  left: 830px;
-  position:relative;
-}
-
-#cafeduende{
-  width: 250px;
-  left: 830px;
-  position:relative;
-}
-
-#limonduende{
-  width: 250px;
-  left: 830px;
-  position:relative;
-}
-
-#galletaduende{
-  width: 250px;
-  left: 830px;
-  position:relative;
-}
-
-#marquesaduende{
-  width: 250px;
-  left: 830px;
-  position:relative;
-}
-
-#video{
-  position:relative;
-  width: 50%;
-  left: 500px; 
-}
-
-table{
-  position: relative;
-  width: 50%;
-  left: 500px; 
-}
-h5{
-  color: rgb( 173, 34, 34);
-  font-size: 40px;
-  display: flex;
-  justify-content: center;
-}
-
-#mapa {
-  position: relative;
-  width: 50%;
-  left: 500px; 
-}
